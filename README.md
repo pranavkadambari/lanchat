@@ -19,7 +19,7 @@ python lanchat/run.py
 ```
 This will start the Tkinter chat application. If other devices on the same network are running LanChat, they will be discovered automatically.
 
-##Project Structure
+## Project Structure
 
 ```bash
 lanchat/
@@ -31,7 +31,7 @@ lanchat/
 
 ```
 
-##Core Modules
+## Core Modules
 
 discovery.py → Handles peer discovery on LAN
 
@@ -43,7 +43,7 @@ transport.py → Data transport layer
 
 tk_app/ → Tkinter GUI (chat app, views)
 
-##Notes
+## Notes
 
 This project is meant for experimentation and personal use.
 
