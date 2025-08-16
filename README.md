@@ -15,7 +15,7 @@ It lets users automatically discover peers on the same LAN, establish sessions, 
 Simply run the entry point with Python:
 
 ```bash
-python lanchat/run.py
+python -m lanchat.run
 ```
 This will start the Tkinter chat application. If other devices on the same network are running LanChat, they will be discovered automatically.
 
